@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "datascienceexmpl"
+version = "0.1.0"
+description = ""
+authors = ["PetroChulkov <114095841+PetroChulkov@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.2"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
